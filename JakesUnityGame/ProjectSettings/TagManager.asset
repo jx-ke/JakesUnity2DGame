@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - foreground
+  - platform1
   layers:
   - Default
   - TransparentFX

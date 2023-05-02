@@ -37,5 +37,10 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = false;
         }
-    }
+
+        if (other.gameObject.CompareTag("platform1"))
+        {
+            isJumping = false;
+        }
+    }  
 }
