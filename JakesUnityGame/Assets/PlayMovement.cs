@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayMovement : MonoBehaviour
 {
     public float jumpForce = 10;
     public float speed;
@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     
         void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("foreground"))
+        if (other.gameObject.CompareTag("Ground"))
         {
             isJumping = false;
         }
@@ -49,3 +49,4 @@ public class PlayerMovement : MonoBehaviour
         }
     }  
 }
+

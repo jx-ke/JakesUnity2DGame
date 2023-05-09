@@ -6,6 +6,8 @@ TagManager:
   tags:
   - foreground
   - platform1
+  - teleporter
+  - Ground
   layers:
   - Default
   - TransparentFX
