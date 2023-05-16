@@ -38,11 +38,6 @@ public class PlayMovement : MonoBehaviour
             isJumping = false;
         }
 
-        if (other.gameObject.CompareTag("platform1"))
-        {
-            isJumping = false;
-        }
-
         if (other.gameObject.CompareTag("teleporter"))
         {
             isJumping = false;
