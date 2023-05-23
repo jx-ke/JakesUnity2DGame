@@ -12,8 +12,10 @@ public class PlayMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isJumping;
+
     void Start()
     {
+
 
         rb = GetComponent<Rigidbody2D>();
     }
@@ -42,11 +44,5 @@ public class PlayMovement : MonoBehaviour
         {
             isJumping = false;
         }
-
-        if (other.gameObject.CompareTag("teleporter"))
-        {
-            isJumping = false;
-        }
     }  
 }
-
