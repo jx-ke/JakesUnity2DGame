@@ -214,8 +214,8 @@ TextureImporter:
       name: Nature_props_01_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 354
+        x: 25
+        y: 352
         width: 29
         height: 29
       alignment: 0
