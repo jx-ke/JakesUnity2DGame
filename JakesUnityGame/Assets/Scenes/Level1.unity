@@ -7091,7 +7091,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.13295746, y: -0.0104842335}
@@ -7168,9 +7168,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1889369939}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b7d75739c29b084091bb0f2b8b89c53, type: 3}
+  m_Script: {fileID: 11500000, guid: 64691bce9e31db842aed5f2c72f48eb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Respawn: 1
 --- !u!1001 &1948305372
 PrefabInstance:
   m_ObjectHideFlags: 0
