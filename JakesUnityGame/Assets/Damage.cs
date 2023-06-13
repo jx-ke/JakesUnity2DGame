@@ -21,7 +21,7 @@
      {
          if(other.CompareTag("Player"))
          {
-             SceneManager.LoadScene(Respawn);
+             SceneManager.LoadScene("Level1");
          }
      }
  }
