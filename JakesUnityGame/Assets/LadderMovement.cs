@@ -33,7 +33,7 @@ public class LadderMovement : MonoBehaviour
         if(isClimbing)
         {
             rb.gravityScale = 0f;
-            rb.velocity - new Vector2(rb.velocity.x, vertical * speed);
+            rb.velocity = new Vector2(rb.velocity.x, vertical * speed);
         }
         else
         {
@@ -50,7 +50,7 @@ public class LadderMovement : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if(collision.CompareTag("Ladder"))
         {
