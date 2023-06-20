@@ -7,30 +7,22 @@ public class LadderDetector : MonoBehaviour
     [SerializeField]
     private Player player;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.GetComponent<Ladder_01>())
+        if (other.CompareTag("Ladder"))
         {
             player.ClimbingAllowed = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        if (collision.GetComponent<Ladder_02>())
+        if (other.CompareTag("Ladder1")) 
         {
             player.ClimbingAllowed = false;
         }
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
+
+    
+
