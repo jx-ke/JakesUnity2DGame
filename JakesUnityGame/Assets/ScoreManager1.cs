@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Level3Collection : MonoBehaviour
+public class ScoreManager1 : MonoBehaviour
 {
-    public static Level3Collection instance;
+    public static ScoreManager1 instance;
 
     public Text scoreText;
 
