@@ -42,10 +42,5 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = false;
         }
-
-        if (other.gameObject.CompareTag("teleporter"))
-        {
-            isJumping = false;
-        }
     }  
 }
