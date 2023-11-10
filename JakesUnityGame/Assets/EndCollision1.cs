@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class EndCollisionDONTDELETE1 : MonoBehaviour
 {
-    public ScoreManager1 scoreManager;
+    public ScoreManager scoreManager;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

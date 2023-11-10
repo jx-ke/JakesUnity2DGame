@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreManager : MonoBehaviour
+public class ScoreManagerLvl3 : MonoBehaviour
 {
-    public static ScoreManager instance;
+    public static ScoreManagerLvl3 instance;
 
     public Text scoreText;
 
@@ -18,13 +18,13 @@ public class ScoreManager : MonoBehaviour
 
     void Start()
     {
-        scoreText.text = score.ToString() + " collected";
+        scoreText.text = score.ToString() + "/5 collected";
     }
 
     public void AddPoint()
     {
         score += 1;
-        scoreText.text = score.ToString() + " collected";
+        scoreText.text = score.ToString() + "/5 collected";
         Debug.Log(score);
     }
 }
