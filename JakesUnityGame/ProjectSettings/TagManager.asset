@@ -12,6 +12,7 @@ TagManager:
   - Ladder
   - Ladder1
   - End
+  - Secret
   layers:
   - Default
   - TransparentFX
