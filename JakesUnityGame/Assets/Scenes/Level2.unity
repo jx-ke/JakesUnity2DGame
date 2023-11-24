@@ -385,7 +385,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10.106919
+  orthographic size: 12.411624
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -410,7 +410,7 @@ Transform:
   m_GameObject: {fileID: 582107205}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.04, y: -3.18, z: -10}
+  m_LocalPosition: {x: 2.02, y: -2.84, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1819,7 +1819,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -7.482798, y: -66.51075}
+  m_Offset: {x: -7.393809, y: -66.51075}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1830,7 +1830,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.989915, y: 10.011036}
+  m_Size: {x: 9.811936, y: 10.011032}
   m_EdgeRadius: 0
 --- !u!61 &674988299
 BoxCollider2D:
@@ -2101,7 +2101,7 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -70.498474, y: -10.488691}
+    - - {x: -70.74162, y: -10.510796}
       - {x: -100.50874, y: -10.492286}
       - {x: -100.50889, y: -29.5061}
       - {x: -90.51228, y: -29.503826}
@@ -2110,9 +2110,9 @@ PolygonCollider2D:
       - {x: -100.502846, y: -59.498516}
       - {x: -80.499725, y: -59.501328}
       - {x: -80.49351, y: -20.512177}
-      - {x: -70.49995, y: -20.499767}
-      - {x: -70.48732, y: -20.506083}
-      - {x: -70.438416, y: -20.567598}
+      - {x: -70.96416, y: -20.521873}
+      - {x: -71.10626, y: -20.506083}
+      - {x: -70.74789, y: -20.545496}
   m_UseDelaunayMesh: 0
 --- !u!60 &674988306
 PolygonCollider2D:
@@ -2457,8 +2457,8 @@ Transform:
   m_GameObject: {fileID: 1161580398}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.2572, y: -2.5554, z: 0}
-  m_LocalScale: {x: 2.3121774, y: 1.1184099, z: 1}
+  m_LocalPosition: {x: 2.2572, y: -2.8432, z: 0}
+  m_LocalScale: {x: 2.3121774, y: 1.2159234, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
