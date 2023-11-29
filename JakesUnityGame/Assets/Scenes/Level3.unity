@@ -5062,7 +5062,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9.779858
+  orthographic size: 11.721726
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -9002,18 +9002,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.18953323, y: -1.9006433}
+  m_Offset: {x: -0.048172593, y: -0.2504699}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10, y: 10}
+    oldSize: {x: 1.86, y: 1.8}
     newSize: {x: 10, y: 10}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.620926, y: 1.1049871}
+  m_Size: {x: 1.1958601, y: 0.15793157}
   m_EdgeRadius: 0
 --- !u!212 &2013286767
 SpriteRenderer:
@@ -9056,7 +9056,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 13
-  m_Sprite: {fileID: 21300000, guid: 352e0de9f1ef9264483383c7e38b3f1a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2528908c5791b6643abcfaafba802b9e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9076,8 +9076,8 @@ Transform:
   m_GameObject: {fileID: 2013286765}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.555, y: -2.38, z: 0}
-  m_LocalScale: {x: 0.122631036, y: 0.13313739, z: 1}
+  m_LocalPosition: {x: -8.61, y: -2.77, z: 0}
+  m_LocalScale: {x: 1.1299506, y: 0.7421018, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
