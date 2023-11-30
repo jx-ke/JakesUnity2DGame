@@ -21,7 +21,7 @@
      {
          if(other.CompareTag("Player"))
          {
-             SceneManager.LoadScene("Level2");
+             SceneManager.LoadScene("Level2 StartScreen");
          }
      }
  }
