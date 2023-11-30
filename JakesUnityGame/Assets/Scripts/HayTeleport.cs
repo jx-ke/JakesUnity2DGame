@@ -15,7 +15,7 @@ public class HayTeleport : MonoBehaviour
             if (collision.gameObject.tag == "Secret") //two conditions need to be met: score = 3 and collision with object with "End" tag
             {
                 
-                SceneManager.LoadScene(5); // loads the End screen
+                SceneManager.LoadScene(7); // loads the End screen
                 
             }
         }
