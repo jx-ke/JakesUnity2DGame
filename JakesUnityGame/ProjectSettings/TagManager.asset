@@ -13,6 +13,7 @@ TagManager:
   - Ladder1
   - End
   - Secret
+  - Score
   layers:
   - Default
   - TransparentFX
