@@ -18,7 +18,7 @@ public class EndCollisionDONTDELETE1 : MonoBehaviour
             if (scoreManager.score == 5 && collision.gameObject.tag == "End") //two conditions need to be met: score = 3 and collision with object with "End" tag
             {
                 
-                SceneManager.LoadScene(4); // loads the End screen
+                SceneManager.LoadScene(6); // loads the End screen
                 
             }
         }
