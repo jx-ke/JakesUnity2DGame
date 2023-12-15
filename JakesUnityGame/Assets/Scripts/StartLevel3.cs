@@ -13,5 +13,9 @@ public class StartLevel3 : MonoBehaviour
         {
         SceneManager.LoadScene(5);
         }
+        else if (Input.GetKeyDown(KeyCode.Backspace))
+        {
+        SceneManager.LoadScene(2);
+        }
     }
 }
