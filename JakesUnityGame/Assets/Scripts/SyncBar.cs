@@ -1,12 +1,16 @@
 /*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SyncBar : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer;
-    public Sprite newSprite;
+    public Sprite Sync1;
     public Sprite[] spriteArray;
+
+    public Text scoreText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,9 +24,9 @@ public class SyncBar : MonoBehaviour
    
         void OnCollisionEnter2D(Collision2D collision)
         {
-            if (collision.gameObject.tag == "Score")
+            if (score = 1)
             {
-                 ChangeSprite(newSprite);
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = Sync1;
             }
         }
 
