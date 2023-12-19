@@ -240,6 +240,7 @@ GameObject:
   - component: {fileID: 288446791}
   - component: {fileID: 288446790}
   - component: {fileID: 288446792}
+  - component: {fileID: 288446794}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -301,7 +302,7 @@ Transform:
   m_GameObject: {fileID: 288446786}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.6261, y: -1.7346, z: 0}
+  m_LocalPosition: {x: -3.47, y: -1.61, z: 0}
   m_LocalScale: {x: 0.09610122, y: 0.09300523, z: 0.9124}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -412,6 +413,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &288446794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288446786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b1a85a048ecc614fb7c42f8663eaf6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &293532163
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,6 +597,7 @@ GameObject:
   - component: {fileID: 558795634}
   - component: {fileID: 558795637}
   - component: {fileID: 558795636}
+  - component: {fileID: 558795638}
   m_Layer: 0
   m_Name: dojo
   m_TagString: foreground
@@ -740,6 +754,18 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &558795638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558795632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43169085105f6154dbbee27e3085b2f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1032648437
 GameObject:
   m_ObjectHideFlags: 0
