@@ -12,7 +12,11 @@ public class HomeScreen : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
 
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene(1);
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+        SceneManager.LoadScene(2);
         }
     }
 }

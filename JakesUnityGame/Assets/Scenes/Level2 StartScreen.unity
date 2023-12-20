@@ -511,7 +511,7 @@ Canvas:
   m_GameObject: {fileID: 619433040}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 582107207}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -523,7 +523,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &619433044
 RectTransform:
@@ -1642,8 +1642,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 212.35425, y: 48.939392}
-  m_SizeDelta: {x: 295.2546, y: 161.7453}
+  m_AnchoredPosition: {x: 259, y: 90.2139}
+  m_SizeDelta: {x: 445.94, y: 244.2944}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1344512477
 MonoBehaviour:
@@ -1667,11 +1667,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6155ebf71f5a35b4792be90be4c9c733, type: 3}
-    m_FontSize: 53
+    m_FontSize: 84
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 59
+    m_MaxSize: 84
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1699,8 +1699,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1, y: -1}
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3.84, y: 2.15}
   m_UseGraphicAlpha: 1
 --- !u!1 &1676578591
 GameObject:
@@ -1821,8 +1821,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 221.35425, y: -80.06061}
-  m_SizeDelta: {x: 369.1012, y: 68.1726}
+  m_AnchoredPosition: {x: 265, y: -146}
+  m_SizeDelta: {x: 555.18, y: 102.5419}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1702166450
 MonoBehaviour:
@@ -1846,11 +1846,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6155ebf71f5a35b4792be90be4c9c733, type: 3}
-    m_FontSize: 32
+    m_FontSize: 52
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 53
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1878,8 +1878,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 1, y: -1}
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 3.84, y: 2.15}
   m_UseGraphicAlpha: 1
 --- !u!1 &1819362446
 GameObject:

@@ -7996,7 +7996,7 @@ GameObject:
   - component: {fileID: 1772733834}
   - component: {fileID: 1772733838}
   - component: {fileID: 1772733837}
-  - component: {fileID: 1772733836}
+  - component: {fileID: 1772733840}
   - component: {fileID: 1772733839}
   m_Layer: 0
   m_Name: Player
@@ -8074,20 +8074,6 @@ Transform:
   - {fileID: 432416784}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1772733836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772733833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32a88fa104263c042b0b5b0cf4b47487, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpForce: 12
-  speed: 10
 --- !u!50 &1772733837
 Rigidbody2D:
   serializedVersion: 4
@@ -8171,6 +8157,20 @@ ConstantForce2D:
   m_Force: {x: 480, y: 0}
   m_RelativeForce: {x: 0, y: 0}
   m_Torque: 0
+--- !u!114 &1772733840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772733833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44387d1beb31dd04b9d744ab24247bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 12
+  speed: 0
 --- !u!1001 &1774653016
 PrefabInstance:
   m_ObjectHideFlags: 0

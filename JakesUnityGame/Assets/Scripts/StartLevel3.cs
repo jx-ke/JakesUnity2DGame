@@ -11,11 +11,15 @@ public class StartLevel3 : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-        SceneManager.LoadScene(5);
+            SceneManager.LoadScene(5);
         }
         else if (Input.GetKeyDown(KeyCode.Backspace))
         {
-        SceneManager.LoadScene(2);
+            SceneManager.LoadScene(2);
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(7);
         }
     }
 }
