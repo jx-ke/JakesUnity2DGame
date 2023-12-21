@@ -602,10 +602,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 100144135}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d70fca4f2c42124fbff10ec4985c81b, type: 3}
+  m_Script: {fileID: 11500000, guid: 237bbe0a1d907d744930bb805ac85a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1531022220}
+  currentTime: 0
+  countDown: 0
+  hasLimit: 0
+  timerLimit: 0
+  hasFormat: 1
+  format: 2
 --- !u!1 &156378906
 GameObject:
   m_ObjectHideFlags: 0
