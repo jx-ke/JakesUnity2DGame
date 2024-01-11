@@ -7,7 +7,6 @@ public class ACKeyHealth : MonoBehaviour
     public int currentHealth3;
     public int maxHealth3;
 
-
     // Start is called before the first frame update
     void Start()
     {

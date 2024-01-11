@@ -27,4 +27,6 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = score.ToString() + " collected";
         Debug.Log(score);
     }
+
+    
 }
